@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProntoFix | Marido de Aluguel em Porto Alegre — Reparos e Manutenção</title>
+  <meta name="description" content="Reparos, instalações e manutenção residencial com profissional qualificado. Orçamento grátis via WhatsApp. Atendimento em Porto Alegre e região.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#contato" class="skip-link">Ir para agendamento</a>
+
+  <a href="#contato" class="whatsapp-float" aria-label="Agendar serviço no WhatsApp" id="whatsapp-float">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <span class="whatsapp-float__ring" aria-hidden="true"></span>
+  </a>
+
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#home" class="logo">
+          <i class="fas fa-hammer" aria-hidden="true"></i>
+          <span>ProntoFix</span>
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#como-funciona" class="nav-link">Como funciona</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#contato" class="btn btn-primary nav-cta">Agendar Agora</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__overlay"></div>
+      <div class="hero__particles" id="particles" aria-hidden="true"></div>
+    </div>
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__content">
+          <span class="hero-badge" data-aos="fade-down">
+            <i class="fas fa-bolt" aria-hidden="true"></i>
+            Marido de aluguel em Porto Alegre
+          </span>
+          <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+            Sua casa em ordem com <span class="highlight">um profissional de confiança</span>
+          </h1>
+          <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+            Reparos, instalações, elétrica, encanamento e manutenção geral — com pontualidade, garantia e orçamento transparente antes de começar.
+          </p>
+          <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+            <a href="#contato" class="btn btn-primary btn-lg" id="hero-cta">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              Pedir Orçamento Grátis
+            </a>
+            <a href="#servicos" class="btn btn-outline btn-lg">Ver Serviços</a>
+          </div>
+          <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+            <div class="stat">
+              <span class="stat-number" data-count="1200">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Serviços realizados</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">4.9</span><span class="stat-suffix">★</span>
+              <span class="stat-label">Avaliação média</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="2">0</span><span class="stat-suffix">h</span>
+              <span class="stat-label">Resposta no WhatsApp</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__image" data-aos="fade-left" data-aos-delay="500">
+          <div class="hero__image-frame">
+            <img
+              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=900&auto=format&fit=crop"
+              alt="Profissional realizando reparo residencial com ferramentas"
+              loading="eager"
+              width="900"
+              height="600"
+            >
+            <div class="hero__float-card" data-aos="zoom-in" data-aos-delay="800">
+              <i class="fas fa-shield-halved" aria-hidden="true"></i>
+              <div>
+                <strong>Garantia 30 dias</strong>
+                <span>Em todo serviço</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">O que fazemos</span>
+        <h2 class="section-title">Serviços Residenciais</h2>
+        <p class="section-subtitle">Do pequeno reparo à manutenção completa — resolvemos sem complicação</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon"><i class="fas fa-wrench" aria-hidden="true"></i></div>
+          <h3>Reparos em Geral</h3>
+          <p>Portas, fechaduras, torneiras, interruptores e pequenos consertos do dia a dia.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-tv" aria-hidden="true"></i></div>
+          <h3>Instalações</h3>
+          <p>TV, prateleiras, cortinas, varal, chuveiro, ventilador e suportes na parede.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><i class="fas fa-faucet-drip" aria-hidden="true"></i></div>
+          <h3>Encanamento</h3>
+          <p>Vazamentos, entupimentos leves, troca de registros e reparos hidráulicos.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
+          <h3>Elétrica Leve</h3>
+          <p>Troca de lâmpadas, tomadas, interruptores e instalação de luminárias.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-paint-roller" aria-hidden="true"></i></div>
+          <h3>Pintura e Acabamento</h3>
+          <p>Retoques, pintura de paredes, massa corrida e acabamentos finos.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i></div>
+          <h3>Montagem de Móveis</h3>
+          <p>Montagem, desmontagem e fixação segura de móveis e armários.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon"><i class="fas fa-house-chimney" aria-hidden="true"></i></div>
+          <h3>Manutenção Preventiva</h3>
+          <p>Checklist completo da casa: vedações, calhas, filtros e ajustes gerais.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-seedling" aria-hidden="true"></i></div>
+          <h3>Jardinagem Básica</h3>
+          <p>Poda, limpeza de jardim, instalação de irrigação simples e organização.</p>
+        </article>
+        <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><i class="fas fa-list-check" aria-hidden="true"></i></div>
+          <h3>Lista de Tarefas</h3>
+          <p>Várias pendências de uma vez? Montamos um pacote e resolvemos tudo no mesmo dia.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="steps">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Processo simples</span>
+        <h2 class="section-title">Como Funciona</h2>
+        <p class="section-subtitle">Do pedido ao serviço concluído em 3 passos — sem burocracia</p>
+      </div>
+      <ol class="steps-grid">
+        <li class="step-card" data-aos="fade-up" data-aos-delay="0">
+          <span class="step-number">1</span>
+          <h3>Descreva o problema</h3>
+          <p>Envie fotos ou explique o serviço pelo WhatsApp. Resposta em até 2 horas.</p>
+        </li>
+        <li class="step-card" data-aos="fade-up" data-aos-delay="150">
+          <span class="step-number">2</span>
+          <h3>Receba o orçamento</h3>
+          <p>Valor fechado antes de iniciar. Agende data e horário que funcionem para você.</p>
+        </li>
+        <li class="step-card" data-aos="fade-up" data-aos-delay="300">
+          <span class="step-number">3</span>
+          <h3>Serviço com garantia</h3>
+          <p>Executamos com capricho, limpamos o local e você aprova com tranquilidade.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="diferenciais" class="features">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Por que escolher</span>
+        <h2 class="section-title">Nossos Diferenciais</h2>
+        <p class="section-subtitle">Profissionalismo que faz diferença em cada detalhe</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-aos="zoom-in" data-aos-delay="0">
+          <div class="feature-icon"><i class="fas fa-certificate" aria-hidden="true"></i></div>
+          <h3>Garantia de 30 dias</h3>
+          <p>Se algo não ficar certo, voltamos sem custo adicional.</p>
+        </div>
+        <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="feature-icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+          <h3>Pontualidade</h3>
+          <p>Chegamos no horário combinado. Seu tempo é respeitado.</p>
+        </div>
+        <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="feature-icon"><i class="fas fa-toolbox" aria-hidden="true"></i></div>
+          <h3>Ferramentas completas</h3>
+          <p>Equipamento profissional para resolver na primeira visita.</p>
+        </div>
+        <div class="feature-card" data-aos="zoom-in" data-aos-delay="0">
+          <div class="feature-icon"><i class="fas fa-hand-holding-dollar" aria-hidden="true"></i></div>
+          <h3>Preço transparente</h3>
+          <p>Orçamento claro antes de começar — sem taxas escondidas.</p>
+        </div>
+        <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="feature-icon"><i class="fas fa-broom" aria-hidden="true"></i></div>
+          <h3>Limpeza pós-serviço</h3>
+          <p>Deixamos o ambiente organizado após cada atendimento.</p>
+        </div>
+        <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="feature-icon"><i class="fas fa-map-location-dot" aria-hidden="true"></i></div>
+          <h3>Grande Porto Alegre</h3>
+          <p>Atendemos POA, Canoas, Gravataí, Viamão e região metropolitana.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Trabalhos realizados</span>
+        <h2 class="section-title">Galeria de Serviços</h2>
+        <p class="section-subtitle">Reparos e instalações com acabamento profissional</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://images.unsplash.com/photo-1504149927700-46325e446392?q=80&w=600&auto=format&fit=crop" alt="Instalação de prateleiras e organização de parede residencial" loading="lazy" width="600" height="400">
+          <figcaption>Instalação de prateleiras</figcaption>
+        </figure>
+        <figure class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=600&auto=format&fit=crop" alt="Reparo elétrico com troca de luminária e fiação" loading="lazy" width="600" height="400">
+          <figcaption>Reparo elétrico</figcaption>
+        </figure>
+        <figure class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1607472586893-a37c7364bfbc?q=80&w=600&auto=format&fit=crop" alt="Reparo hidráulico em torneira de cozinha" loading="lazy" width="600" height="400">
+          <figcaption>Reparo hidráulico</figcaption>
+        </figure>
+        <figure class="gallery-item" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=600&auto=format&fit=crop" alt="Pintura de parede com acabamento uniforme" loading="lazy" width="600" height="400">
+          <figcaption>Pintura e acabamento</figcaption>
+        </figure>
+        <figure class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=600&auto=format&fit=crop" alt="Montagem de móvel com ferramentas profissionais" loading="lazy" width="600" height="400">
+          <figcaption>Montagem de móveis</figcaption>
+        </figure>
+        <figure class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=600&auto=format&fit=crop" alt="Manutenção de jardim com poda e organização" loading="lazy" width="600" height="400">
+          <figcaption>Jardinagem básica</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Depoimentos</span>
+        <h2 class="section-title">O que Dizem Nossos Clientes</h2>
+        <p class="section-subtitle">Centenas de famílias satisfeitas em Porto Alegre</p>
+      </div>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          <p class="testimonial-text">"Precisava instalar 4 prateleiras, trocar duas torneiras e consertar uma porta. Resolveu tudo em uma tarde. Capricho total e preço justo!"</p>
+          <footer class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">MS</div>
+            <div>
+              <cite class="author-name">Mariana Souza</cite>
+              <span class="author-service">Lista de tarefas</span>
+            </div>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          <p class="testimonial-text">"Chegou no horário, explicou o que ia fazer e entregou antes do prazo. Instalou meu ar-condicionado e fez a parte elétrica. Recomendo demais."</p>
+          <footer class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">JP</div>
+            <div>
+              <cite class="author-name">João Pereira</cite>
+              <span class="author-service">Instalação elétrica</span>
+            </div>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          <p class="testimonial-text">"Morando sozinha, sempre tinha medo de contratar. Profissional educado, limpo e transparente no orçamento. Já é meu marido de aluguel fixo!"</p>
+          <footer class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">LC</div>
+            <div>
+              <cite class="author-name">Luciana Costa</cite>
+              <span class="author-service">Manutenção geral</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content" data-aos="zoom-in">
+        <h2 class="cta-title">Pronto para resolver aquela pendência?</h2>
+        <p class="cta-text">Orçamento grátis e resposta em até 2 horas pelo WhatsApp</p>
+        <a href="#contato" class="btn btn-primary btn-lg" id="cta-button">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          Solicitar Orçamento Agora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Dúvidas frequentes</span>
+        <h2 class="section-title">Perguntas e Respostas</h2>
+        <p class="section-subtitle">Tire suas principais dúvidas sobre nossos serviços</p>
+      </div>
+      <div class="faq-list" role="list">
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="0">
+          <button class="faq-question" aria-expanded="false">
+            <span>Quanto custa um marido de aluguel?</span>
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Depende do serviço. Reparos simples a partir de R$ 80. Envie fotos ou descreva o problema pelo WhatsApp e receba um orçamento sem compromisso.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+          <button class="faq-question" aria-expanded="false">
+            <span>Quais formas de pagamento vocês aceitam?</span>
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Aceitamos PIX, dinheiro e cartão de débito/crédito. O pagamento é feito após a conclusão do serviço, com sua aprovação.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+          <button class="faq-question" aria-expanded="false">
+            <span>Atendem em quais regiões?</span>
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Porto Alegre e região metropolitana: Canoas, Gravataí, Viamão, Alvorada, Cachoeirinha, Novo Hamburgo e cidades próximas.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+          <button class="faq-question" aria-expanded="false">
+            <span>Atendem aos finais de semana?</span>
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Sim! Atendemos de segunda a sábado, inclusive sábados e domingos mediante agendamento. Ideal para quem trabalha durante a semana.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <span class="section-badge">Agendamento</span>
+          <h2 class="section-title">Solicite seu Orçamento</h2>
+          <p class="contact-lead">Preencha o formulário e envie direto para nosso WhatsApp. Resposta em até 2 horas.</p>
+          <ul class="contact-details">
+            <li>
+              <i class="fas fa-location-dot" aria-hidden="true"></i>
+              <div>
+                <strong>Área de atendimento</strong>
+                <p>Porto Alegre e região metropolitana — RS</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-clock" aria-hidden="true"></i>
+              <div>
+                <strong>Horário</strong>
+                <p>Seg a Sáb: 8h às 19h · Dom: sob agendamento</p>
+              </div>
+            </li>
+            <li>
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <p>(51) 99887-6655</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form-wrap" data-aos="fade-left">
+          <form id="whatsapp-form" novalidate>
+            <div class="form-group">
+              <label for="nome">Nome completo *</label>
+              <input type="text" id="nome" name="nome" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone/WhatsApp *</label>
+              <input type="tel" id="telefone" name="telefone" required autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <label for="endereco">Endereço/Bairro *</label>
+              <input type="text" id="endereco" name="endereco" required placeholder="Ex: Moinhos de Vento, POA">
+            </div>
+            <div class="form-group">
+              <label for="tipo-servico">Tipo de serviço *</label>
+              <select id="tipo-servico" name="tipo-servico" required>
+                <option value="">Selecione...</option>
+                <option value="Reparos em geral">Reparos em geral</option>
+                <option value="Instalações (TV, prateleiras, etc.)">Instalações (TV, prateleiras, etc.)</option>
+                <option value="Encanamento">Encanamento</option>
+                <option value="Elétrica leve">Elétrica leve</option>
+                <option value="Pintura e acabamento">Pintura e acabamento</option>
+                <option value="Montagem de móveis">Montagem de móveis</option>
+                <option value="Manutenção preventiva">Manutenção preventiva</option>
+                <option value="Jardinagem básica">Jardinagem básica</option>
+                <option value="Lista de tarefas (vários serviços)">Lista de tarefas (vários serviços)</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="descricao">Descrição do problema/necessidade *</label>
+              <textarea id="descricao" name="descricao" rows="3" required placeholder="Descreva o que precisa ser feito..."></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="data">Data preferencial</label>
+                <input type="date" id="data" name="data">
+              </div>
+              <div class="form-group">
+                <label for="periodo">Horário preferencial</label>
+                <select id="periodo" name="periodo">
+                  <option value="">Selecione...</option>
+                  <option value="Manhã (8h–12h)">Manhã (8h–12h)</option>
+                  <option value="Tarde (13h–18h)">Tarde (13h–18h)</option>
+                  <option value="Noite (18h–21h)">Noite (18h–21h)</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              Enviar pelo WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <i class="fas fa-hammer" aria-hidden="true"></i>
+            <span>ProntoFix</span>
+          </a>
+          <p>Marido de aluguel — reparos e manutenção com garantia.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Links do rodapé">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#como-funciona">Como funciona</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Agendar</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <h3>Contato</h3>
+          <p><i class="fab fa-whatsapp" aria-hidden="true"></i> (51) 99887-6655</p>
+          <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Porto Alegre — RS</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ProntoFix. Todos os direitos reservados.</p>
+        <p class="footer-demo">Site demonstrativo — desenvolvido por <a href="https://fariasdigital.com.br" target="_blank" rel="noopener noreferrer">Farias Digital</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
